@@ -6,18 +6,18 @@ class Dog:
         def bark(self):
             print("Woof! Woof!")
 
-        def celebrateBirthday(self):
+        def celebrate_Birthday(self):
             self.age += 1
             print(f"Happy birthday! {self.name} is now {self.age} years old.")
 
-        def getInfo(self):
+        def get_Info(self):
             return f"Dog Name: {self.name}, Age: {self.age}"
 
 
 if __name__ == "__main__":
     my_dog = Dog("Max", 5)
-    print(my_dog.getInfo())
+    print(my_dog.get_Info())
     my_dog.bark()
-    my_dog.celebrateBirthday()
-    print(my_dog.getInfo())
+    my_dog.celebrate_Birthday()
+    print(my_dog.get_Info())
     
