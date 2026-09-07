@@ -3,15 +3,15 @@ class Dog:
         self.name = name
         self.age = age
 
-        def bark(self):
-            print("Woof! Woof!")
+    def bark(self):
+        print("Woof! Woof!")
 
-        def celebrate_Birthday(self):
-            self.age += 1
-            print(f"Happy birthday! {self.name} is now {self.age} years old.")
+    def celebrate_Birthday(self):
+        self.age += 1
+        print(f"Happy birthday! {self.name} is now {self.age} years old.")
 
-        def get_Info(self):
-            return f"Dog Name: {self.name}, Age: {self.age}"
+    def get_Info(self):
+        return f"Dog Name: {self.name}, Age: {self.age}"
 
 
 if __name__ == "__main__":
