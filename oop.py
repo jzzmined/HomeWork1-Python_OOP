@@ -15,8 +15,7 @@ class Dog:
 
 
 if __name__ == "__main__":
-    my_dog = Dog("Max", 5)
-    print(my_dog.get_Info())
+    my_dog = Dog("Max", 5)  
     my_dog.bark()
     my_dog.celebrate_Birthday()
     print(my_dog.get_Info())
